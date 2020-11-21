@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/proiect1.dir/main.cpp.o  -o proiect1 factorial/libfactorial.a 

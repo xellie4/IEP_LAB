@@ -1,0 +1,14 @@
+/home/pi/Documents/iep/build/CMakeFiles/install/strip.dir
+/home/pi/Documents/iep/build/CMakeFiles/edit_cache.dir
+/home/pi/Documents/iep/build/CMakeFiles/proiect1.dir
+/home/pi/Documents/iep/build/CMakeFiles/rebuild_cache.dir
+/home/pi/Documents/iep/build/CMakeFiles/list_install_components.dir
+/home/pi/Documents/iep/build/CMakeFiles/install.dir
+/home/pi/Documents/iep/build/CMakeFiles/install/local.dir
+/home/pi/Documents/iep/build/factorial/CMakeFiles/install/strip.dir
+/home/pi/Documents/iep/build/factorial/CMakeFiles/edit_cache.dir
+/home/pi/Documents/iep/build/factorial/CMakeFiles/factorial.dir
+/home/pi/Documents/iep/build/factorial/CMakeFiles/rebuild_cache.dir
+/home/pi/Documents/iep/build/factorial/CMakeFiles/list_install_components.dir
+/home/pi/Documents/iep/build/factorial/CMakeFiles/install.dir
+/home/pi/Documents/iep/build/factorial/CMakeFiles/install/local.dir
