@@ -1,0 +1,2 @@
+/usr/local/lib/libfactorial.a
+/usr/local/include/factorial.h

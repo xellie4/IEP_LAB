@@ -1,0 +1,7 @@
+/home/pi/Documents/iep/factorial/build/CMakeFiles/install/strip.dir
+/home/pi/Documents/iep/factorial/build/CMakeFiles/edit_cache.dir
+/home/pi/Documents/iep/factorial/build/CMakeFiles/factorial.dir
+/home/pi/Documents/iep/factorial/build/CMakeFiles/rebuild_cache.dir
+/home/pi/Documents/iep/factorial/build/CMakeFiles/list_install_components.dir
+/home/pi/Documents/iep/factorial/build/CMakeFiles/install.dir
+/home/pi/Documents/iep/factorial/build/CMakeFiles/install/local.dir
