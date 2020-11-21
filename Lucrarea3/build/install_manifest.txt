@@ -1,0 +1,3 @@
+/usr/local/bin/proiect1
+/usr/local/lib/libfactorial.a
+/usr/local/include/factorial.h
