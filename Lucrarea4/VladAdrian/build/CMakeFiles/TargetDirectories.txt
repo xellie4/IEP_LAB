@@ -1,0 +1,7 @@
+/home/vlad/IEP/IEP_LAB/Lucrarea4/build/CMakeFiles/install/strip.dir
+/home/vlad/IEP/IEP_LAB/Lucrarea4/build/CMakeFiles/install/local.dir
+/home/vlad/IEP/IEP_LAB/Lucrarea4/build/CMakeFiles/lucrarea4.dir
+/home/vlad/IEP/IEP_LAB/Lucrarea4/build/CMakeFiles/rebuild_cache.dir
+/home/vlad/IEP/IEP_LAB/Lucrarea4/build/CMakeFiles/edit_cache.dir
+/home/vlad/IEP/IEP_LAB/Lucrarea4/build/CMakeFiles/install.dir
+/home/vlad/IEP/IEP_LAB/Lucrarea4/build/CMakeFiles/list_install_components.dir
