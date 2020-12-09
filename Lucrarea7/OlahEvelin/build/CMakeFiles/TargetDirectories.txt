@@ -1,0 +1,3 @@
+/home/ellie/Desktop/lucrarea7_s8_done/build/CMakeFiles/rebuild_cache.dir
+/home/ellie/Desktop/lucrarea7_s8_done/build/CMakeFiles/edit_cache.dir
+/home/ellie/Desktop/lucrarea7_s8_done/build/CMakeFiles/lucrarea7.dir
