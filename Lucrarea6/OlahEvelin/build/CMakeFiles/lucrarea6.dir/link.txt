@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/lucrarea6.dir/main.cpp.o -o lucrarea6 

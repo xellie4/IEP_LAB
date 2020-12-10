@@ -1,0 +1,3 @@
+/home/ellie/Desktop/lucrarea6/OlahEvelin/build/CMakeFiles/rebuild_cache.dir
+/home/ellie/Desktop/lucrarea6/OlahEvelin/build/CMakeFiles/edit_cache.dir
+/home/ellie/Desktop/lucrarea6/OlahEvelin/build/CMakeFiles/lucrarea6.dir
