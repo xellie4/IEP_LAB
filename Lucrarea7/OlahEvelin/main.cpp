@@ -51,8 +51,7 @@ class CameraFoto{
 inline const CameraFoto operator+(CameraFoto& lhs, CameraFoto& rhs){
     return CameraFoto(lhs.getNumeCamera() + rhs.getNumeCamera(), lhs.getNrCadre() + rhs.getNrCadre() );
 }
-  string numeCamera;
-        int nrCadre;
+
 bool verifNrCadrePesteOVal(CameraFoto f, int x){
     if (f.getNrCadre() > x){
         return true;

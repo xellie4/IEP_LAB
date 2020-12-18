@@ -9,9 +9,6 @@ functia pur virtuala zbroara si
 functia pur virtuala sunet, care va afisa sunetul pe care pasarea il face.
 */
 class Pasare {
-private:
-    int distanta_zbor;
-    string sunet_pasare;
 public:
     virtual void zboara() = 0;
     virtual void sunet() = 0; //va afisa sunetul pe care pasarea il face.
@@ -112,9 +109,25 @@ public:
         cout << "sunet gaina: " << sunet_pasare << "\n";
     }
     
-    //to do: O gaina poate fi vanduta pe un alt tip de pasare.
+    void decrementareNrGaini(){
+            nr_max_gaini--;
+    }
+    
+    //O gaina poate fi vanduta pe un alt tip de pasare.
+    Pasare* vindeGaina(Pasare *p){
+        if(typeid(p) != typeid(Gaina)){
+            nr_max_gaini--;
+            return p;
+        }
+        return p;
+    }
+    
+    void afisare(){
+        cout << "Nr total de gaini: " << nr_max_gaini << "\n";
+    }
 };
 
+int Gaina::nr_max_gaini = 0;
 
 /*
 ->clasa derivata strut.
@@ -125,10 +138,55 @@ rezultatul fiind incrementarea numarului de gaini continut de un strut si
 scaderea unei gaini din numarul de gaini introduse.
 */
 class Strut :public Pasare {
-
+    private:
+        static Strut* inst_;
+        int distanta_zbor;
+        string sunet_pasare;
+        int nrGainiStrut = 0;
+        
+        Strut(int z, string s): distanta_zbor(z),sunet_pasare(s){
+            cout << "se creeaza obiectul\n";
+        }
+        
+    public:
+        static Strut* getInstance(int z, string s)
+        {
+            if (inst_ == NULL) {
+                inst_ = new Strut(z,s);
+            }
+            return(inst_);
+        }
+        
+        void zboara(){
+            cout << "Distanta zbor: " << distanta_zbor << "\n";
+        }
+        
+        void sunet(){
+            cout << "Sunet strut: " << sunet_pasare << "\n";
+        }
+        
+        void afiseaza(){
+            cout << "Distanta zbor si sunet: " << distanta_zbor <<  " " << sunet_pasare << "\n";
+        }
+        
+        void afiseazaNrGainiStrut(){
+            cout << "Nr gaini strut: " << nrGainiStrut <<  "\n";
+        }
+        
+        void incrementNrGainiStrut(){
+            nrGainiStrut++;
+        }
+        
 };
 
-int Gaina::nr_max_gaini = 0;
+inline const Strut operator+(Strut strut, Gaina gaina)
+{
+    strut.incrementNrGainiStrut();
+    gaina.decrementareNrGaini();
+    return strut;
+}
+
+Strut* Strut::inst_ = NULL;
 
 int main()
 {
@@ -148,7 +206,29 @@ int main()
     gaina1.zboara();
     gaina1.sunet();
     
-    Gaina gaina2(12,"dfsd");
+    //Gaina gaina343(12,"dfsd");
+    
+    Gaina gaina2(4, "dsa");
+    Gaina gaina3(4, "ewre");
+    Gaina gaina4(4, "fdgfd");
+    
+    /* Strut e clasa singleton */
+    Strut* p1 = Strut::getInstance(10,"ds");
+    
+    p1->afiseaza();
+    
+    Strut* p2 = Strut::getInstance(6, "dfsf");
+
+    p1->afiseazaNrGainiStrut();
+
+    p2->afiseaza();
+    
+    *p1 = *p1 + gaina1;
+    
+    p1->afiseazaNrGainiStrut();
+    
+    gaina2.afisare();
+    
     
     return 0;
 }
