@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vlad/IEP_LAB/Lucrarea11/VladAdrian/main.cpp
+iostream
+-
+list
+-
+math.h
+-
+iomanip
+-
+map
+-
+
