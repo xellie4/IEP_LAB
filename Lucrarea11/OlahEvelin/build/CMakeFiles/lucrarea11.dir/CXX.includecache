@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ellie/Documents/IEP_LAB/Lucrarea11/OlahEvelin/main.cpp
+iostream
+-
+list
+-
+cmath
+-
+
